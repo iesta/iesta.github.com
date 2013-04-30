@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://iesta.github.io/atom.xml" rel="self"/>
   <link href="http://iesta.github.io/"/>
-  <updated>2013-04-30T11:14:38+02:00</updated>
+  <updated>2013-04-30T11:52:24+02:00</updated>
   <id>http://iesta.github.io/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -18,11 +18,36 @@
     <link href="http://iesta.github.io/blog/2013/04/30/this-is-a-first-post/"/>
     <updated>2013-04-30T10:49:00+02:00</updated>
     <id>http://iesta.github.io/blog/2013/04/30/this-is-a-first-post</id>
-    <content type="html"><![CDATA[<h2>this is a first post</h2>
+    <content type="html"><![CDATA[<p>I am testing Octopress right now and it&#8217;s not really seamless&#8230;</p>
 
-<p>I am testing Octopress right now and it&#8217;s not really seamless&#8230;</p>
+<p>Octopress is <a href="https://github.com/mojombo/jekyll">Jekyll</a> blogging at its finest.</p>
 
-<p>[test]{http://google.be}</p>
+<p>How do i upload an image ?</p>
+
+<p>I want to add an image</p>
+
+<p><img src="https://dl.dropbox.com/s/vz10yf3xwvxbjq2/2013-04-30_at_11.36.53.png" title="Octopress logo" alt="Octopress" /></p>
+
+<p>Some code</p>
+
+<figure class='code'><figcaption><span>Discover if a number is prime</span><a href='http://www.noulakaz.net/weblog/2007/03/18/a-regular-expression-to-check-for-prime-numbers/'>Source Article</a></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="k">class</span> <span class="nc">Fixnum</span>
+</span><span class='line'>  <span class="k">def</span> <span class="nf">prime?</span>
+</span><span class='line'>    <span class="p">(</span><span class="s1">&#39;1&#39;</span> <span class="o">*</span> <span class="nb">self</span><span class="p">)</span> <span class="o">!~</span> <span class="sr">/^1?$|^(11+?)\1+$/</span>
+</span><span class='line'>  <span class="k">end</span>
+</span><span class='line'><span class="k">end</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+
+
+<div><script src='https://gist.github.com/996818.js'></script>
+<noscript><pre><code></code></pre></noscript></div>
+
 ]]></content>
   </entry>
   
