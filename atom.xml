@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://iesta.github.io/atom.xml" rel="self"/>
   <link href="http://iesta.github.io/"/>
-  <updated>2013-04-30T10:35:10+02:00</updated>
+  <updated>2013-04-30T10:57:24+02:00</updated>
   <id>http://iesta.github.io/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -12,5 +12,16 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[This is a first post]]></title>
+    <link href="http://iesta.github.io/blog/2013/04/30/this-is-a-first-post/"/>
+    <updated>2013-04-30T10:49:00+02:00</updated>
+    <id>http://iesta.github.io/blog/2013/04/30/this-is-a-first-post</id>
+    <content type="html"><![CDATA[<p>*** this is a first post</p>
+
+<p>I am testing Octopress right now and it&#8217;s not really seamless&#8230;</p>
+]]></content>
+  </entry>
   
 </feed>
